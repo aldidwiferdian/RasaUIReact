@@ -158,32 +158,33 @@ function Basic() {
   </div>
 </div>
 
-            <div className="cardFooter" style={styleFooter}>
-              <div className="row">
-                <div className="col-auto d-flex align-items-center justify-content-center">
-                  <BiBot className="botIcon" />
-                </div>
-                <div className="col-9">
-                  <input
-                    type="text"
-                    className="msginp"
-                    placeholder="Type a message..."
-                    value={inputMessage}
-                    onChange={(evt) => setInputMessage(evt.target.value)}
-                    onKeyDown={(evt) => {
-                      if (evt.key === 'Enter') {
-                        handleSubmit(evt);
-                      }
-                    }}
-                  />
-                </div>
-                <div className="col-1 col-auto d-flex align-items-center justify-content-center">
-                  <button className="sendBtn" onClick={handleSubmit}>
-                    <IoMdSend />
-                  </button>
-                </div>
-              </div>
-            </div>
+<div className="cardFooter" style={styleFooter}>
+  <div className="d-flex align-items-center">
+    <div className="mr-2">
+      <BiBot className="botIcon" />
+    </div>
+    <div className="flex-grow-1">
+      <input
+        type="text"
+        className="msginp"
+        placeholder="Type a message..."
+        value={inputMessage}
+        onChange={(evt) => setInputMessage(evt.target.value)}
+        onKeyDown={(evt) => {
+          if (evt.key === 'Enter') {
+            handleSubmit(evt);
+          }
+        }}
+      />
+    </div>
+    <div className="ml-2">
+      <button className="sendBtn" onClick={handleSubmit}>
+        <IoMdSend />
+      </button>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </div>
