@@ -1,0 +1,194 @@
+.container {
+  margin-top: 50px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.cardFooter {
+  padding: 10px 20px;
+}
+
+.msgarea {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.msgalignend {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.msgalignstart {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.botmsg {
+  background-color: rgb(205, 173, 241);
+  padding: 10px;
+  border-radius: 25px;
+  max-width: 100%;
+}
+
+.botmsg p {
+  white-space: pre-line;
+  text-align: left;
+}
+
+
+.usermsg {
+  background-color: rgb(235, 220, 252);
+  padding: 10px;
+  border-radius: 25px;
+  max-width: 20rem;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row; /* Mengatur arah tata letak menjadi horizontal */
+  justify-content: flex-start; /* Memposisikan elemen-elemen ke kanan */
+  margin-top: 10px;
+  margin-top: 10px;
+  overflow-x: auto;
+}
+.buttonContainer::-webkit-scrollbar-thumb {
+  background: url('https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-vector-forward-icon-png-image_925823.jpg') center center no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+
+.buttonItem {
+  margin: 5px;
+}
+
+
+.buttonItemContent {
+  flex-grow: 1;
+}
+
+.buttonItemTitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buttonItemSubtitle {
+  margin: 0;
+  font-size: 14px;
+}
+
+.messageImage {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.buttonItemButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.buttonItemLink {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #1c05e9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.buttonItemLink:hover {
+  background-color: #45a049;
+}
+
+.buttonItemLink:active {
+  background-color: #3e8e41;
+}
+
+
+.botImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.msginp {
+  width: 100%;
+  height: 55px;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: none;
+  padding-left: 10px;
+}
+
+.botIcon {
+  font-size: 45px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.userIcon {
+  font-size: 40px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.sendBtn {
+  font-size: 25px;
+}
+
+/* Scrollbar Styles */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
