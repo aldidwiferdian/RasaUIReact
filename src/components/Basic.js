@@ -94,7 +94,6 @@ function Basic() {
   };
 
   const styleHeader = {
-    height: '4.5rem',
     borderBottom: '1px solid black',
     borderRadius: '30px 30px 0px 0px',
     backgroundColor: '#8012c4'
