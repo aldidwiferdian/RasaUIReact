@@ -178,8 +178,8 @@ function Basic() {
       />
     </div>
     <div className="ml-2">
-      <button className="sendBtn" onClick={handleSubmit}>
-        <IoMdSend />
+      <button className="sendBtn" onClick={handleSubmit} style={{ backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '4px', padding: '0.5rem 1rem',marginLeft: '10px' }}>
+        <IoMdSend style={{ fontSize: '1.2rem' }} />
       </button>
     </div>
   </div>
