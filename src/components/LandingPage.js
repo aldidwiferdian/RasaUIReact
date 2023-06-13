@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './LandingPage.css';
 
 function LandingPage() {
   const [showPopup, setShowPopup] = useState(true);
