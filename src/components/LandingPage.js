@@ -14,8 +14,8 @@ function LandingPage() {
       {showPopup && (
         <div className="popupContainer">
           <div className="popupContent">
-            <h2>Selamat Datang!</h2>
-            <p>Ini adalah halaman landing page.</p>
+            <h2>Selamat Datang di Informasi Chatbot Wisata Tangeran Selatan!</h2>
+            <p>Anda bisa memulainya dengan menekan tombol mulai dibawah ini.</p>
             <button className="button" onClick={closePopup}>Mulai</button>
           </div>
         </div>
