@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './LandingPage.css';
+import Basic from './Basic';
 
 function LandingPage() {
   const [showPopup, setShowPopup] = useState(true);
@@ -19,6 +20,8 @@ function LandingPage() {
           </div>
         </div>
       )}
+
+      {!showPopup && <Basic />}
     </>
   );
 }
