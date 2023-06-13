@@ -4,18 +4,22 @@ import './LandingPage.css';
 function LandingPage() {
   const [showPopup, setShowPopup] = useState(true);
 
-  const handleStart = () => {
+  const closePopup = () => {
     setShowPopup(false);
-    // Logika atau tindakan lainnya saat tombol "Mulai" diklik
   };
 
   return (
-    <div className={`landingPage ${showPopup ? 'show' : ''}`}>
-      <div className="popup">
-        <h1>Selamat Datang!</h1>
-        <button onClick={handleStart}>Mulai</button>
-      </div>
-    </div>
+    <>
+      {showPopup && (
+        <div className="popupContainer">
+          <div className="popupContent">
+            <h2>Selamat Datang!</h2>
+            <p>Ini adalah halaman landing page.</p>
+            <button onClick={closePopup}>Mulai</button>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
 
