@@ -16,7 +16,7 @@ function LandingPage() {
           <div className="popupContent">
             <h2>Selamat Datang!</h2>
             <p>Ini adalah halaman landing page.</p>
-            <button onClick={closePopup}>Mulai</button>
+            <button className="button" onClick={closePopup}>Mulai</button>
           </div>
         </div>
       )}
