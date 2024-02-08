@@ -44,7 +44,7 @@ function Basic() {
 
   const rasaAPI = async (name, msg) => {
     try {
-      const response = await fetch('https://rasa-server-aldi7id.cloud.okteto.net/webhooks/rest/webhook', {
+      const response = await fetch('https://meerkat-perfect-dane.ngrok-free.app/webhooks/rest/webhook', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
